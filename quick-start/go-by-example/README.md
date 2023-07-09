@@ -1,0 +1,88 @@
+# 学习官方推荐的 Go 示例（Go by Example）<!-- omit in toc -->
+
+[网站](https://gobyexample.com) | [中文网站](https://gobyexample-cn.github.io/) | [GitHub](https://github.com/mmcgrana/gobyexample)
+
+Go by Example 是 Go 官方推荐的入门教程。它基于实践对 Go 进行介绍，包含一系列带有注释说明的示例程序。
+
+## 目录<!-- omit in toc -->
+
+- [你好世界](./examples/1.Hello-World.md)（[Hello World](https://gobyexample.com/hello-world)）
+- [值](./examples/2.Values.md)（[Values](https://gobyexample.com/values)）
+- [变量](./examples/3.Variables.md)（[Variables](https://gobyexample.com/variables)）
+- [常量](./examples/4.Constants.md)（[Constants](https://gobyexample.com/constants)）
+- [For 循环](./examples/5.For.md)（[For](https://gobyexample.com/for)）
+- [If-Else 分支结构](./examples/6.If-Else.md)（[If/Else](https://gobyexample.com/if-else)）
+- [Switch 分支结构](./examples/7.Switch.md)（[Switch](https://gobyexample.com/switch)）
+- [数组](./examples/8.Arrays.md)（[Arrays](https://gobyexample.com/arrays)）
+- [切片](./examples/9.Slices.md)（[Slices](https://gobyexample.com/slices)）
+- [Maps](./examples/10.Maps.md)（[Maps](https://gobyexample.com/maps)）
+- [Range 遍历](./examples/11.Range.md)（[Range](https://gobyexample.com/range)）
+- [函数](./examples/12.Functions.md)（[Functions](https://gobyexample.com/functions)）
+- [多返回值](./examples/13.Multiple-Return-Values.md)（[Multiple Return Values](https://gobyexample.com/multiple-return-values)）
+- [变参函数](./examples//14.Variadic-Functions.md)（[Variadic Functions](https://gobyexample.com/variadic-functions)）
+- [闭包](./examples/15.Closures.md)（[Closures](https://gobyexample.com/closures)）
+- [递归](./examples/16.Recursion.md)（[Recursion](https://gobyexample.com/recursion)）
+- [指针](./examples/17.Pointers.md)（[Pointers](https://gobyexample.com/pointers)）
+- 字符串和 rune 类型（Strings and Runes）
+- [结构体](./examples/19.Structs.md)（[Structs](https://gobyexample.com/structs)）
+- [方法](./examples/20.Methods.md)（[Methods](https://gobyexample.com/methods)）
+- [接口](./examples/21.Interfaces.md)（[Interfaces](https://gobyexample.com/interfaces)）
+- [结构嵌入](./examples/22.Struct-Embedding.md)（[Struct Embedding](https://gobyexample.com/struct-embedding)）
+- 泛型（Generics）
+- [错误处理](./examples/24.Errors.md)（[Errors](https://gobyexample.com/errors)）
+- [协程](./examples/25.Goroutines.md)（[Goroutines](https://gobyexample.com/goroutines)）
+- [通道](./examples/26.Channels.md)（[Channels](https://gobyexample.com/channels)）
+- [通道缓冲](./examples/27.Channel-Buffering.md)（[Channel Buffering](https://gobyexample.com/channel-buffering)）
+- [通道同步](./examples/28.Channel-Synchronization.md)（[Channel Synchronization](https://gobyexample.com/channel-synchronization)）
+- [通道方向](./examples/29.Channel-Directions.md)（[Channel Directions](https://gobyexample.com/channel-directions)）
+- [通道选择器](./examples/30.Select.md)（[Select](https://gobyexample.com/select)）
+- [超时处理](./examples/31.Timeouts.md)（[Timeouts](https://gobyexample.com/timeouts)）
+- [非阻塞通道操作](./examples/32.Non-Blocking-Channel-Operations.md)（[Non-Blocking Channel Operations](https://gobyexample.com/non-blocking-channel-operations)）
+- [通道的关闭](./examples/33.Closing-Channels.md)（[Closing Channels](https://gobyexample.com/closing-channels)）
+- [通道遍历](./examples/34.Range-over-Channels.md)（[Range over Channels](https://gobyexample.com/range-over-channels)）
+- [定时器](./examples/35.Timers.md)（[Timers](https://gobyexample.com/timers)）
+- [打点器](./examples/36.Tickers.md)（[Tickers](https://gobyexample.com/tickers)）
+- [工作池](./examples/37.Worker-Pools.md)（[Worker Pools](https://gobyexample.com/worker-pools)）
+- [WaitGroups](./examples/38.WaitGroups.md)（[WaitGroups](https://gobyexample.com/waitgroups)）
+- 速率限制（Rate Limiting）
+- 原子计数器（Atomic Counters）
+- 互斥锁（Mutexes）
+- 状态协程（Stateful Goroutines）
+- [排序](./examples/43.Sorting.md)（[Sorting](https://gobyexample.com/sorting)）
+- [使用函数自定义排序](./examples/44.Sorting-by-Functions.md)（Sorting by Functions）
+- [Panic](./examples/45.Panic.md)（[Panic](https://gobyexample.com/panic)）
+- [Defer](./examples/46.Defer.md)（[Defer](https://gobyexample.com/defer)）
+- [Recover](./examples/47.Recover.md)（[Recover](https://gobyexample.com/recover)）
+- [字符串函数](./examples/48.String-Functions.md)（[String Functions](https://gobyexample.com/string-functions)）
+- [字符串格式化](./examples/49.String-Formatting.md)（[String Formatting](https://gobyexample.com/string-formatting)）
+- [文本模板](./examples/50.Text-Templates.md)（[Text Templates](https://gobyexample.com/text-templates)）
+- [正则表达式](./examples/51.Regular-Expressions.md)（[Regular Expressions](https://gobyexample.com/regular-expressions)）
+- [JSON](./examples/52.JSON.md)（[JSON](https://gobyexample.com/json)）
+- XML（XML）
+- [时间](./examples/53.Time.md)（[Time](https://gobyexample.com/time)）
+- [时间纪元](./examples/54.Epoch.md)（[Epoch](https://gobyexample.com/epoch)）
+- [时间的格式化和解析](./examples/55.Time-Formatting-Parsing.md)（[Time Formatting / Parsing](https://gobyexample.com/time-formatting-parsing)）
+- [随机数](./examples/56.Random-Numbers.md)（[Random Numbers](https://gobyexample.com/random-numbers)）
+- [数字解析](./examples/57.Number-Parsing.md)（[Number Parsing](https://gobyexample.com/number-parsing)）
+- [URL 解析](./examples/58.URL-Parsing.md)（[URL Parsing](https://gobyexample.com/url-parsing)）
+- [SHA256 散列](./examples/59.SHA256-Hashes.md)（[SHA256 Hashes](https://gobyexample.com/sha256-hashes)）
+- [Base64 编码](./examples/60.Base64-Encoding.md)（[Base64 Encoding](https://gobyexample.com/base64-encoding)）
+- [读文件](./examples/61.Reading-Files.md)（[Reading Files](https://gobyexample.com/reading-files)）
+- [写文件](./examples/62.Writing-Files.md)（[Writing Files](https://gobyexample.com/writing-files)）
+- [行过滤器](./examples/63.Line-Filters.md)（[Line Filters](https://gobyexample.com/line-filters)）
+- [文件路径](./examples/64.File-Paths.md)（[File Paths](https://gobyexample.com/file-paths)）
+- [目录](./examples/65.Directories.md)（[Directories](https://gobyexample.com/directories)）
+- [临时文件和目录](./examples/66.Temporary-Files-and-Directories.md)（[Temporary Files and Directories](https://gobyexample.com/temporary-files-and-directories)）
+- 嵌入指令（Embed Directive）
+- [单元测试和基准测试](./examples/68.Testing-and-Benchmarking.md)（[Testing and Benchmarking](https://gobyexample.com/testing-and-benchmarking)）
+- [命令行参数](./examples/69.Command-Line-Arguments.md)（[Command-Line Arguments](https://gobyexample.com/command-line-arguments)）
+- 命令行标志（Command-Line Flags）
+- 命令行子命令（Command-Line Subcommands）
+- [环境变量](./examples/72.Environment-Variables.md)（[Environment Variables](https://gobyexample.com/environment-variables)）
+- [HTTP 客户端](./examples/73.HTTP-Client.md)（[HTTP Client](https://gobyexample.com/http-client)）
+- [HTTP 服务端](./examples/74.HTTP-Server.md)（[HTTP Server](https://gobyexample.com/http-server)）
+- [HTTP 上下文](./examples/75.Context.md)（[Context](https://gobyexample.com/context)）
+- 生成进程（Spawning Processes）
+- 执行进程（Exec'ing Processes）
+- 信号（Signals）
+- 退出（Exit）
