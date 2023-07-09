@@ -49,7 +49,7 @@ Go by Example 是 Go 官方推荐的入门教程。它基于实践对 Go 进行�
 - 互斥锁（Mutexes）
 - 状态协程（Stateful Goroutines）
 - [排序](./examples/43.Sorting.md)（[Sorting](https://gobyexample.com/sorting)）
-- [使用函数自定义排序](./examples/44.Sorting-by-Functions.md)（Sorting by Functions）
+- [使用函数自定义排序](./examples/44.Sorting-by-Functions.md)（[Sorting by Functions](https://gobyexample.com/sorting-by-functions)）
 - [Panic](./examples/45.Panic.md)（[Panic](https://gobyexample.com/panic)）
 - [Defer](./examples/46.Defer.md)（[Defer](https://gobyexample.com/defer)）
 - [Recover](./examples/47.Recover.md)（[Recover](https://gobyexample.com/recover)）
